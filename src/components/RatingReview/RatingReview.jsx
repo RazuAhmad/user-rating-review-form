@@ -13,8 +13,7 @@ function RatingReview() {
 
   const onSubmit = (data) => {
     if (rating >= 4) {
-      window.location.href =
-        "https://www.google.com/maps/place/Reglazing+WOW+-+Bathtub+Refinishing+%26+Reglazing/@43.6728674,-79.3373622,17z/data=!3m1!4b1!4m6!3m5!1s0x4cfff8cd086d319:0x8920d217640c6c82!8m2!3d43.6728674!4d-79.3373622!16s%2Fg%2F11st895dy6?entry=ttu";
+      window.location.href = "https://g.page/r/CYJsDGQX0iCJEBM/review";
     }
   };
 
