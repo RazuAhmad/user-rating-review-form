@@ -6,6 +6,7 @@ function RatingReview() {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
 
@@ -15,6 +16,7 @@ function RatingReview() {
     if (rating >= 4) {
       window.location.href = "https://g.page/r/CYJsDGQX0iCJEBM/review";
     }
+    reset();
   };
 
   return (
